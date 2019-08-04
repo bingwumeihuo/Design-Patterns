@@ -5,7 +5,6 @@ package single;
  * @ClassName: Hungry
  * @Description: 饿汉式单例
  * @Author: 式神
- * @CreateDate: 2019/8/4 22:48
  */
 public class Hungry {
     /**
