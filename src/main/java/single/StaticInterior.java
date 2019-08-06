@@ -1,5 +1,7 @@
 package single;
 
+import java.io.Serializable;
+
 /**
  * @Package: single
  * @ClassName: StaticInterior
@@ -7,10 +9,9 @@ package single;
  * @Author: 式神
  */
 public class StaticInterior {
-   private static class SingletonClassInstance{
+   private static class SingletonClassInstance implements Serializable {
        private static final StaticInterior instance =new StaticInterior();
    }
-
     public static StaticInterior getInstance(){
         return SingletonClassInstance.instance;
     }
